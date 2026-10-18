@@ -2,8 +2,8 @@
 ## Practical 7: Authentication and Middleware Pipeline
 
 ### Student Details
-- **Student ID:** 24CS051
-- **Student Name:** Aayush Malhotra
+- **Student ID:** 24CS050
+- **Student Name:** Vivek Maheshwari
 - **Subject Code & Name:** CSE304 / ITUE301: Advanced Web Development Frameworks
 - **Department:** Department of Computer Science and Engineering
 - **Institution:** Chandubhai S Patel Institute of Technology (CSPIT), CHARUSAT
@@ -98,10 +98,10 @@ npm run dev
    - Open `http://localhost:5173/tasks` while logged out (or after clicking **Sign Out**).
    - Capture the **"JWT Authentication Required"** lock gateway with login/register form.
 2. **7.2 User Login & Token Generation**:
-   - Click **"⚡ Fill Demo Account"** (`24cs051@charusat.edu.in` / `password123`) and click **"Sign In with JWT"**.
+   - Click **"⚡ Fill Demo Account"** (`24cs050@charusat.edu.in` / `password123`) and click **"Sign In with JWT"**.
    - Capture the green success Toast notification: `Login successful! Authorized to access MongoDB.`.
 3. **7.3 Authenticated User Session & /me Profile Inspection**:
-   - Capture the active user profile card showing `👤 Aayush Malhotra (24cs051@charusat.edu.in)` and the `🛡️ JWT Active (1h Expiry)` badge.
+   - Capture the active user profile card showing `👤 Vivek Maheshwari (24cs050@charusat.edu.in)` and the `🛡️ JWT Active (1h Expiry)` badge.
    - Click **"🔍 Inspect /me"** to capture the decoded JWT profile modal showing MongoDB User ID and email.
 4. **7.4 Protected Task Creation & MongoDB Association**:
    - Add a new task (e.g. `Implement Role-Based Access Control`).
